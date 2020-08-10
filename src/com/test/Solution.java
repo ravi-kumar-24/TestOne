@@ -79,7 +79,7 @@ class Result {
      */
 
     public static List <List <String>> getSelectionStatus(List <List<String>> applications) {
-        List < Player > players = applications.stream()
+        List <Player> players = applications.stream()
                 .map(s -> new Player(s))
                 .collect(Collectors.toList());
         Collections.sort(players, (o1, o2) -> o1.name.compareTo(o2.name));
