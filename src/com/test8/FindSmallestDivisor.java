@@ -33,8 +33,8 @@ public class FindSmallestDivisor {
     }
 
     public static void main(String[] args) {
-       // System.out.println(findSmallestDivisor("bcdbcdbcdbcd", "bcdbcd"));
-        System.out.println(findSmallestDivisor("lrbb", "lrbb"));
+        System.out.println(findSmallestDivisor("bcdbcdbcdbcd", "bcdbcd"));
+       // System.out.println(findSmallestDivisor("lrbb", "lrbb"));
         //System.out.println(findSmallestDivisor("rbrb", "rbrb"));
       //  System.out.println(findSmallestDivisor("bcdbdcbcdbdcbcdbdcbcdbdc", "bcdbdcbcdbdc"));
     }
